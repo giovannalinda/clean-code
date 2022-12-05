@@ -2,8 +2,8 @@
 
 const users = ['Giovanna', 'Gabriel', 'Luanna']
 
-
 // ❌ errado
+// não abrevie os nomes, deixe o mais descritivo possível, o tamanho da variável não importa
 const filtered = users.filter(u => {
   return u.startsWith('G')
 })
@@ -14,7 +14,6 @@ const usersStartingWithLetterG = users.filter(u => {
 })
 
 // evite nomes genéricos (data, response, params, list, args)
-
 // ❌ errado
 function getUsers() {
   const data = getUsersFromDataBase()
